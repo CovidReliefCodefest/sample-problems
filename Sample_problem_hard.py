@@ -20,3 +20,5 @@ for i in range(100,1000):
 print("Answer is : "+str(biggest))  # 906609
 
 print("From numbers : ", str(num1),str(num2))  # 913, 993
+
+# '%' refers to the modulus(mod) operation and '//' refers to getting the quotient 
