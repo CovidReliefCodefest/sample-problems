@@ -6,7 +6,6 @@ while option2<option1:
     print(str(year)+" "+str(option1)+" "+str(option2))
     option1=option1+0.1*option1
     power=12*(year+1)
-    print(power)
     monthlyrate=10/1200
     multiplier=(1+(monthlyrate))**float(power) # '**' is the operation for the power ('^') symbol
     option2=10000*multiplier
